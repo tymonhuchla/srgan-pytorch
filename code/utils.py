@@ -4,13 +4,15 @@ import os
 import torch as T
 
 
-def show_image(image):
+def show_image(image, path=None):
     result = image.permute(1, 2, 0)
     plt.imshow(result, interpolation='nearest')
-    plt.show()
+    plt.axis('off')
+    if path:
+        plt.savefig(path)
 
 
-def show_progress(imgs, path='generated_data', save=False, show=True):
+def show_progress(imgs, path='../generated_data', save=False, show=True):
     # Low res -> Predicted -> High res
     time = datetime.datetime.now().strftime("%m.%d__%H:%M")
     if show:

@@ -67,7 +67,7 @@ EPOCHS = 1000
 if 'models' not in os.listdir():
     os.mkdir('models')
 
-save_path = './models/'
+save_path = '../models/'
 
 # <----- TRAINING LOOP ----->
 
