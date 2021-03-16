@@ -7,8 +7,7 @@ SRGAN implementation in PyTorch based on a paper <a href='https://arxiv.org/pdf/
 generating fake faces that are not recognizable from real ones. **GANs** applications don't stop on merely generating data, **pix2pix** and **CycleGAN** are performing
 incredibly at image translation tasks. 
 
-Recently I've came across <a href='https://arxiv.org/pdf/1609.04802.pdf'>this</a> paper. It describes a architecture called **SRGAN** which is able to perform super-resolution
-, meaning they can increase resolution of a given low-resolution image.
+Recently I've came across <a href='https://arxiv.org/pdf/1609.04802.pdf'>this</a> paper. It describes a architecture called **SRGAN** which is able to perform super-resolution, meaning it can increase resolution of a given low-resolution image.
 
 # Implementation
 
